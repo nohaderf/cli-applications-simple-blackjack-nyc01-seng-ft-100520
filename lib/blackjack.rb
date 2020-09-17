@@ -84,7 +84,6 @@ end
 # To output the phrase "Please enter a valid command". 
 def invalid_command
   puts "Please enter a valid command"
-  get_user_input
 end
 
 #####################################################
