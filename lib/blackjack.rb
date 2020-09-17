@@ -91,7 +91,12 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-
+# Welcome the user
+# Deal them their first two cards, i.e. their initial_round
+# Ask them if they want to hit or stay
+# If they want to stay, ask them again!
+# If they want to hit, deal another card and display the new total
+# If their card total exceeds 21, the game ends.
 
 
 
