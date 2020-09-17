@@ -99,11 +99,6 @@ end
 # If their card total exceeds 21, the game ends.
 
 def runner
-  welcome
-  card_total = initial_round
-  until card_total > 21
-    hit?
-  end
-  end_game(card_total)
+ 
 end
     
