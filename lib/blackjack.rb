@@ -98,9 +98,6 @@ end
 # If they want to hit, deal another card and display the new total
 # If their card total exceeds 21, the game ends.
 
-
-
-
 def runner
   # code runner here
 end
