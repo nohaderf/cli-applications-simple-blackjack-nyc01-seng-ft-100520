@@ -96,16 +96,15 @@ end
 # Deal them their first two cards, i.e. their initial_round
 # Ask them if they want to hit or stay
 # If they want to stay, ask them again!
-# If they want to hit, deal another card and display the new total
+# If they want to hit, deal another card
+# Display the new total
 # If their card total exceeds 21, the game ends.
 
 def runner
   welcome
   card_total = initial_round
   until card_total > 21
-   card_total = hit?(card_total)
-   display_card_total(card_total)
+    card_total = hit?(card_total)
+    display_card_total(card_total)
   end
-  end_game(card_total)
 end
-    
