@@ -100,6 +100,8 @@ end
 
 def runner
   welcome
-
+  initial_round
+  hit?
+  
 end
     
