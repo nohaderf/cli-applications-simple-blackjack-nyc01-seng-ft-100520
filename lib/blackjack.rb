@@ -99,6 +99,7 @@ end
 # If their card total exceeds 21, the game ends.
 
 def runner
-  # code runner here
+  welcome
+
 end
     
